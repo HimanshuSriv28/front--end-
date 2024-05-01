@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>API End Point</h3>
+        </div>
+        <div class="main">
+            <div class="input-section">
+                <input type="text" id="apiEndpoint" placeholder="Enter API Endpoint URL">
+                <button onclick="getData()">GET</button>
+                <div id="error"></div>
+            </div>
+            <div class="json-section">
+                <h3>JSON </h3>
+                <textarea id="jsonData" placeholder="Enter or edit JSON data"></textarea>
+            </div>
+            <div class="output-section">
+                <button onclick="renderHTML()">Render HTML</button>
+                <button onclick="renderMarkdown()">Render Markdown</button>
+                <div id="output"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+   
+    margin-bottom: 20px;
+}
+
+.input-section, .json-section, .output-section, .options {
+    margin-bottom: 20px;
+}
+
+.input-section input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#error {
+    color: red;
+}
+
+.json-section textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.output-section #output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.output-section button {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.options button:hover {
+    background-color: #0056b3;
+}
